@@ -1,0 +1,314 @@
+       html {
+           scroll-behavior: smooth;
+       }
+       
+       body {
+           margin: 0;
+           padding: 0;
+       }
+       
+       section {
+           width: 100%;
+           height: 100vh;
+       }
+       
+       .secText {
+           justify-content: center;
+           /* align-items: top; */
+           /* display: flex; */
+           background-image: url('./Imagen1.jpg');
+           background-size: 100% 100%;
+           background-position: center center;
+           background-attachment: fixed;
+       }
+       
+       #CajaCirculo {
+           width: 100%;
+           height: 20vh;
+           display: flex;
+       }
+       
+       #circulo {
+           margin-top: 2%;
+           width: 100px;
+           height: 100px;
+           background: #000;
+           color: white;
+           border-radius: 50px;
+           box-sizing: border-box;
+           margin-left: 45%;
+       }
+       
+       #circulo p {
+           margin-left: 14%;
+           margin-top: 23%;
+           font-size: 50px;
+       }
+       
+       ul {
+           margin: 0;
+           padding: 0;
+           margin-left: 25%;
+           display: flex;
+           width: 50%;
+       }
+       
+       ul li {
+           list-style-type: none;
+           position: relative;
+           margin: 0px 20px;
+           height: 15vh;
+       }
+       
+       ul li a {
+           text-decoration: none;
+           position: relative;
+           display: block;
+           padding: 10px;
+           font-size: 50px;
+           color: white;
+       }
+       
+       ul li a:hover {
+           color: #ff8c8c;
+           transition: 1s;
+           font-size: 55px;
+           text-shadow: -2px -2px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+       }
+       
+       #Flecha {
+           width: 100%;
+           height: auto;
+           display: flex;
+       }
+       
+       #Flecha a {
+           box-sizing: border-box;
+           margin-top: 25%;
+           margin-left: 48%;
+           color: white;
+           font-size: 50px;
+       }
+       
+       .secProjectos h1 {
+           margin: 0;
+           padding: 0;
+           text-align: center;
+           font-size: 48px;
+       }
+       
+       .secProjectos .flex-container {
+           width: 100%;
+           height: 30%;
+           display: flex;
+           align-items: center;
+           justify-items: center;
+           justify-content: center;
+           align-content: center;
+           position: relative;
+       }
+       
+       .secProjectos .flex-container div {
+           width: 25%;
+           height: 195px;
+           margin: 10px;
+           position: relative;
+           text-align: center;
+           border: 2px solid black;
+           box-sizing: border-box;
+           display: flex;
+       }
+       
+       .secProjectos .flex-container div p {
+           opacity: 0;
+           padding: 0 20px;
+           position: relative;
+           display: block;
+           align-items: center;
+           display: flex;
+           /* align-content: center; */
+           padding-left: 35%;
+           box-sizing: border-box;
+           width: 100%;
+       }
+       
+       .secProjectos .flex-container div:hover p {
+           opacity: 1;
+           font-size: 20px;
+           transition-delay: .333s;
+           color: white;
+           background: #000;
+       }
+       
+       .secProjectos .flex-container div:hover {
+           opacity: .5;
+           transition: .5s linear;
+           border: 2px solid red;
+       }
+       
+       .Img1 {
+           background: url(./Img1.jpg);
+           background-size: 100%
+       }
+       
+       .Img2 {
+           background: url(./Img2.jpg);
+           background-size: 100% 100%;
+       }
+       
+       .Img3 {
+           background: url(./Img3.jpg);
+           background-size: 100% 100%;
+       }
+       
+       .Img4 {
+           background: url(./Img4.jpg);
+           background-size: 100% 100%;
+       }
+       
+       .Img5 {
+           background: url(./Img5.jpg);
+           background-size: 100% 100%;
+       }
+       
+       .Img6 {
+           background: url(./Img6.jpg);
+           background-size: 100% 100%;
+       }
+       
+       .Img7 {
+           background: url(./Img7.jpg);
+           background-size: 100% 100%;
+       }
+       
+       .Img8 {
+           background: url(./Img8.jpg);
+           background-size: 100% 100%;
+       }
+       
+       .Img9 {
+           background: url(./Img9.jpg);
+           background-size: 100% 100%;
+       }
+       
+       .sec2 {
+           background: url(./Imagen2.jpg);
+           background-size: 100% 100%;
+           background-position: center center;
+           background-attachment: fixed;
+       }
+       
+       .secText1 {
+           padding: 50px 50px;
+           height: auto;
+           box-sizing: border-box;
+       }
+       
+       .secText1 h1 {
+           margin: 0;
+           padding: 0;
+           font-size: 48px;
+       }
+       
+       .secText1 p {
+           font-size: 18px;
+           text-align: justify;
+           /* width: 80%; */
+       }
+       
+       .sec3 {
+           background: url(./Imagen3.jpg);
+           background-size: 100% 100%;
+           background-position: center center;
+           background-attachment: fixed;
+       }
+       
+       .secContact {
+           display: flex;
+           flex-wrap: wrap;
+       }
+       
+       .secContact h1 {
+           text-align: center;
+           justify-items: center;
+           position: relative;
+           margin-top: 5%;
+           width: 100%;
+           font-size: 50px;
+       }
+       
+       .secContact .Nombre,
+       .secContact .Email,
+       .secContact .Telefono,
+       .secContact .Mensaje {
+           box-sizing: border-box;
+           padding: 10px;
+           display: flex;
+           width: 100%;
+           justify-content: center;
+           justify-items: center;
+       }
+       
+       .Nombre #TxtNombre,
+       .Email #TxtEmail,
+       .Telefono #TxtTelefono {
+           width: 80%;
+           height: 8vh;
+       }
+       
+       .Mensaje #TxtMensaje {
+           width: 80%;
+           height: 20vh;
+       }
+       
+       .Iconos {
+           height: 10vh;
+           display: flex;
+           width: 15%;
+           justify-content: space-between;
+           padding: 0 0 0 12%;
+       }
+       
+       .Iconos .fa {
+           font-size: 20px;
+       }
+       
+       .Enviar {
+           width: 63%;
+           height: 10vh;
+           /* display: flex; */
+       }
+       
+       .Enviar #BtnEnviar {
+           position: relative;
+           left: 82%;
+       }
+       
+       #BtnEnviar {
+           width: 17%;
+           height: 5vh;
+           background: rgb(26, 26, 26);
+           color: white;
+           border: none;
+       }
+       
+       #BtnEnviar:hover {
+           /* background: white; */
+           /* color: black; */
+           opacity: .5;
+           transition: 1s;
+           /* color: black; */
+       }
+       
+       footer {
+           clear: both;
+           background: #0075c3;
+           height: 5vh;
+       }
+       
+       footer p {
+           width: 50vw;
+           margin: auto;
+           text-align: center;
+           color: white;
+       }
